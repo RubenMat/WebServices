@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinMedidas"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinMedidas2"
+        android:layout_toRightOf="@id/spinMedidas"/>
+
+    <EditText
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/txtDato"
+        android:layout_below="@id/spinMedidas"/>
+
+    <Button
+        android:id="@+id/btObtener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtener"
+        android:layout_below="@+id/txtDato"/>
+</RelativeLayout>

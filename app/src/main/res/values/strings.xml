@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="medidas">
+        <item>Angstroms</item>
+        <item>Nanometers</item>
+        <item>Microinch</item>
+        <item>Microns</item>
+        <item>Mils</item>
+        <item>Millimeters</item>
+        <item>Centimeters</item>
+        <item>Inches</item>
+        <item>Links</item>
+        <item>Spans</item>
+        <item>Feet</item>
+        <item>Cubits</item>
+        <item>Varas</item>
+        <item>Yards</item>
+        <item>Meters</item>
+        <item>Fathoms</item>
+        <item>Rods</item>
+        <item>Chains</item>
+        <item>Furlongs</item>
+        <item>Cablelengths</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item>Nauticalmile</item>
+        <item>League</item>
+        <item>Nauticalleague</item>
+    </string-array>
+    <string name="app_name">WebServices</string>
+</resources>
